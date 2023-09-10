@@ -11,7 +11,7 @@ html, body {
 
 button {
   border-radius: 25px;
-  border-color: #434242;
+  border: 1px solid #2a2929;
   padding: 8px 22px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
@@ -37,7 +37,6 @@ header {
   color: #191919;
 }
 header .container {
-  display: flex;
   gap: 20px;
   display: flex;
   justify-content: space-between;
@@ -115,34 +114,36 @@ header .container .menu .bottom-menu nav a:hover {
   text-decoration: underline;
 }
 
-main {
+section {
   display: flex;
   justify-content: space-between;
   background-color: #F0EFE9;
-  padding: 15px;
+  color: #191919;
 }
-main .start-1 {
+section .start {
+  flex: 1;
+  display: flex;
+}
+section .start .start-1 {
   padding: 5px;
 }
-main .start-1 h1 {
+section .start .start-1 h1 {
   font-family: "DM Sans", sans-serif;
   font-size: 96px;
   font-weight: 700;
 }
-main .start-1 p {
+section .start .start-1 p {
   font-size: 20px;
   font-family: "Inter", sans-serif;
 }
-
-img {
-  display: inline;
-  justify-content: end;
-}
-img .business {
-  max-width: 30%;
+section .start .pic-1 {
+  max-width: 50%;
   height: auto;
-  position: absolute;
-}
-img .design {
   position: relative;
+}
+section .start .pic-1 .business {
+  display: inline;
+}
+section .start .pic-1 .design {
+  position: absolute;
 }

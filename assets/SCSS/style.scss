@@ -12,7 +12,7 @@ html, body{
 
 button{
     border-radius: 25px;
-    border-color:#434242;
+    border: 1px solid #2a2929;
     padding: 8px 22px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
@@ -43,11 +43,11 @@ header{
     
 
     .container{
-        display: flex;
         gap:20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
 
       //  @media (min-width: 2500px;){
        //     max-width: 2048px;
@@ -162,46 +162,55 @@ header{
 
 }
 
-main{
+
+    
+section{    
     display: flex;
     justify-content: space-between;
     background-color: #F0EFE9;
-    padding:15px;
+    color:#191919;
 
-    .start-1{
-        padding: 5px;
+    
+    .start{
+        flex:1;
+        display: flex;
 
-        h1{
-            font-family: 'DM Sans', sans-serif;
-            font-size: 96px;
-            font-weight: 700;
+        .start-1{
+            padding: 5px;
 
-        }
+            h1{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 96px;
+                font-weight: 700;
 
-        p{
-            font-size: 20px;
-            font-family: 'Inter', sans-serif;
+            }
+
+            p{
+                font-size: 20px;
+                font-family: 'Inter', sans-serif;
+                
+            }
+    
+        }   
+        
+        .pic-1{
+            max-width: 50%;
+            height: auto;
+            position: relative;
+        
             
+            .business{
+                display: inline;
+                
+            }
+            .design{
+                position: absolute;
+                
+            }
         }
-   
-        }
-       
-       
-    }
-    img{
-        display: inline;
-        justify-content: end;
-    .business{
-        max-width: 30%;
-        height: auto;
-        position: absolute;
-        
-    }
-    .design{
-        position:relative;
-        
     }
 }
+
  
    
     
