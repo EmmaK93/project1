@@ -146,3 +146,11 @@ section .start .pic-1 .business {
 section .start .pic-1 .design {
   position: absolute;
 }
+
+.sponsor {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sponsor img {
+  padding: 50px;
+}
