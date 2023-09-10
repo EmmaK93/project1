@@ -11,6 +11,7 @@ html, body {
 
 button {
   border-radius: 25px;
+  border-color: #434242;
   padding: 8px 22px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
@@ -133,7 +134,15 @@ main .start-1 p {
   font-family: "Inter", sans-serif;
 }
 
-.business {
-  height: 726px;
-  width: auto;
+img {
+  display: inline;
+  justify-content: end;
+}
+img .business {
+  max-width: 30%;
+  height: auto;
+  position: absolute;
+}
+img .design {
+  position: relative;
 }
