@@ -172,7 +172,7 @@ section{
 
     
     .start{
-        flex:1;
+        
         display: flex;
 
         .start-1{
@@ -196,11 +196,10 @@ section{
         .pic-1{
             max-width: 50%;
             height: auto;
-            position: relative;
-        
+            position: relative;     
             
             .business{
-                display: inline;
+                display: block;
                 
             }
             .design{

@@ -121,7 +121,6 @@ section {
   color: #191919;
 }
 section .start {
-  flex: 1;
   display: flex;
 }
 section .start .start-1 {
@@ -142,7 +141,7 @@ section .start .pic-1 {
   position: relative;
 }
 section .start .pic-1 .business {
-  display: inline;
+  display: block;
 }
 section .start .pic-1 .design {
   position: absolute;
