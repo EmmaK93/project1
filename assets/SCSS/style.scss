@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap');
+
 *{
     box-sizing:border-box;
 }
@@ -10,30 +12,48 @@ html, body{
     
 }
 
-button{
+.Btn-yellow{
     border-radius: 25px;
-    border: 1px solid #2a2929;
-    padding: 8px 22px;
+    border: 1px solid #F9D783;
+    color:#191919;
+    padding: 12px 22px;
     font-weight: 600;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    background-color: #F9D783;
+    
     
     &:hover{
         color:rgb(102, 100, 100);
     }
-
-    &.B1{
-    background-color: #F9D783;
-    border-color:#F9D783;
-    border-style: none;
-   
-    }
+    
     i{
         margin-left: 8px;
         font-size: 0.9em;
     }
-
 }
+
+.Btn-trans{
+    border-radius: 25px;
+    border: 1px solid black;
+    color:#191919;
+    padding: 12px 22px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    
+    
+    &:hover{
+        color:rgb(102, 100, 100);
+    }
+    
+    i{
+        margin-left: 8px;
+        font-size: 0.9em;
+    }
+}
+
 
 header{
     display: flex;
@@ -164,22 +184,21 @@ header{
 
 
     
-section{    
-    display: flex;
-    justify-content: space-between;
+.showcase{    
     background-color: #F0EFE9;
-    color:#191919;
+    
 
-    .start{
-        
+    .container{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        .start-1{
+        .content{
             padding: 5px;
 
             h1{
                 font-family: 'DM Sans', sans-serif;
-                font-size: 96px;
+                font-size: 86px;
                 font-weight: 700;
 
             }
@@ -187,24 +206,23 @@ section{
             p{
                 font-size: 20px;
                 font-family: 'Inter', sans-serif;
+                padding-top: 40px;
+                padding-bottom: 40px;
                 
+            }
+            a{
+                text-decoration: none;
+                color:black;
+                margin-right: 10px;
+                margin-left: 10px;
+
             }
     
         }   
         
         .pic-1{
-            max-width: 50%;
-            height: auto;
-            position: relative;     
+            margin-right: -50px;
             
-            .business{
-                display: block;
-                
-            }
-            .design{
-                position: absolute;
-                
-            }
         }
     }
 }
@@ -212,6 +230,7 @@ section{
 .sponsor{
     display:flex;
     justify-content:space-evenly;
+
     
         img{
             
