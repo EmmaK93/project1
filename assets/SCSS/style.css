@@ -181,7 +181,7 @@ header .container .menu .bottom-menu nav a:hover {
   align-items: center;
 }
 .container.Features {
-  border: 1px solid #434242;
+  border: 1px solid #bdbbbb;
   padding: 50px;
 }
 .container.Features .text2 {
@@ -202,7 +202,18 @@ header .container .menu .bottom-menu nav a:hover {
 .container.Features .text2 a:hover {
   color: #F0EFE9;
 }
-.container.Features .d-inline-grid {
-  display: inline-grid;
-  padding-right: 50px;
+.container.Features .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container.Features .grid-container .grid-item {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.container.Features .grid-container .grid-item h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
 }
