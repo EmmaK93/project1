@@ -8,6 +8,7 @@ html, body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .Btn-yellow {
@@ -44,6 +45,25 @@ html, body {
   color: #F0EFE9;
 }
 .Btn-trans i {
+  margin-left: 8px;
+  font-size: 0.9em;
+}
+
+.Btn-black {
+  border-radius: 25px;
+  border: 1px solid black;
+  color: white;
+  padding: 12px 22px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  background-color: black;
+}
+.Btn-black:hover {
+  background-color: white;
+  color: black;
+}
+.Btn-black i {
   margin-left: 8px;
   font-size: 0.9em;
 }
@@ -153,6 +173,7 @@ header .container .menu .bottom-menu nav a:hover {
   font-family: "Inter", sans-serif;
   padding-top: 40px;
   padding-bottom: 40px;
+  color: #191919;
 }
 .showcase .container .content a {
   text-decoration: none;
@@ -187,8 +208,9 @@ header .container .menu .bottom-menu nav a:hover {
 .container.Features .text2 {
   padding-left: 50px;
 }
-.container.Features .text2 p {
+.container.Features .text2 .orange {
   color: #F94D1C;
+  font-size: 18px;
 }
 .container.Features .text2 h2 {
   font-family: "DM Sans", sans-serif;
@@ -216,4 +238,84 @@ header .container .menu .bottom-menu nav a:hover {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
   font-weight: 700;
+}
+.container.Features .grid-container .grid-item p {
+  color: #191919;
+}
+
+.About {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 110px;
+}
+.About .container img {
+  padding-right: 50px;
+}
+.About .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.About .container .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.About .container p {
+  color: #191919;
+}
+.About .container .Btn-black a {
+  text-decoration: none;
+  color: white;
+}
+.About .container .Btn-black a:hover {
+  background-color: transparent;
+  color: #191919;
+}
+.About .container a {
+  text-decoration: none;
+  color: #191919;
+}
+.About .container a:hover {
+  color: #DAD9D3;
+}
+.About .container .play {
+  padding-right: 5px;
+}
+
+.Service {
+  padding-top: 100px;
+  background-color: #F0EFE9;
+}
+.Service .container {
+  display: block;
+}
+.Service .container .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.Service .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.Service .container .boxtext {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  border: 1px solid black;
+}
+.Service .container .boxtext .boxitem {
+  padding: 50px;
+  border: 1px solid black;
+  margin: 10px;
+}
+.Service .container .boxtext .boxitem .Btn-arrow {
+  border-radius: 25px;
+  background-color: #191919;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: end;
 }
