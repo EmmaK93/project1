@@ -334,6 +334,7 @@ header{
 display: flex;
 justify-content: space-between;
 padding-top: 110px;
+padding-bottom: 100px;
 
 .container{
 
@@ -386,10 +387,21 @@ padding-top: 110px;
 
 .Service{
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color:#F0EFE9;
+    
+    
 
     .container{
         display:block;
+        
+        .Btn-sec{
+            display: flex;
+            justify-content: center; 
+           padding: 20px;
+            
+        }
+        
         
         .orange{
             color:#F94D1C;
@@ -397,7 +409,7 @@ padding-top: 110px;
         }
 
         h2{
-            font-family: 'DM Sans', sans-serif;
+        font-family: 'DM Sans', sans-serif;
         font-weight: 700;
         font-size: 45px;
         }
@@ -406,13 +418,33 @@ padding-top: 110px;
             display:flex;
             justify-content: space-evenly;
             padding: 20px;
-            border: 1px solid black;
+           
+
+            h3{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+
+            }
+            
+            p{
+                padding-bottom: 20px;
+            }
+            
 
             .boxitem{
-                padding: 50px;
-                border: 1px solid black;
+                
+                padding-bottom: 70px;
+                padding-top: 70px;
+                padding-right: 50px;
+                padding-left: 50px;
+                border: 1px solid white;
                 margin: 10px;
-
+                background-color: white;
+            
+                &:hover{
+                    background-color: #F9D783;
+                }
                 
 
                 .Btn-arrow{
@@ -423,14 +455,154 @@ padding-top: 110px;
                     padding-bottom: 15px;
                     padding-left: 20px;
                     padding-right: 20px;
-                    text-align: end;
+                   
+
+                    &:hover{
+                        background-color: white;
+                        color: black;
+                    }
+                    
                     
                 }
             }
 
 
         }
+        
+    }
+}
+.Choose{
+    
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    img{
+        height: 450px;
+        width: auto;
+    }
 
+    .choose-us{
+        display: block;
+        margin-right: 50px;
+
+
+        h2{
+            font-family: 'DM Sans', sans-serif;
+            font-weight: 700;
+            font-size: 45px;
+            padding-bottom: 20px;
+        }
+
+        .orange{
+            color:#F94D1C;
+            font-size: 18px;
+        }
+
+       
+        h3{
+            font-family: 'DM Sans', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+
+        }
+       .column-item{
+            padding:20px;
+
+            .columni{
+                padding-top:20px;
+                
+                i{
+                    padding-right: 20px;
+                    padding-left:20px;
+                    padding-bottom: 20px;
+                    padding-top:20px ;
+                    border-radius: 35px;
+                    border:1px solid #c7c7c7;
+                    margin-right: 20px;
+                    
+                }
+            }
+       }
+
+    }
+}
+
+.Projects{
+
+    .container{
+        display: block;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        .project-text{
+            display: block;
+            text-align: center;
+            padding-bottom: 70px;
+
+            h2{
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 45px;
+                
+            }
+    
+            .orange{
+                color:#F94D1C;
+                font-size: 18px;
+            }
+
+        }
+
+     
+        .grid-project{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 50px;
+            
+
+            h3{
+                font-family: 'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                border-bottom: 2px solid #E7E7E7;
+            }
+           
+            .grid-pic{
+                
+
+                a{
+                    display: flex;
+                    justify-content: end;
+                    text-decoration: none;
+                    color:#191919;
+                    font-size: 14px;
+                    font-weight: 400;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    
+                    i{
+                        padding-left: 10px;
+                    }
+
+                }
+                
+            }
+        }
+
+        .Btn-sec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+            margin-left: 50px;
+        }
     }
 }
    

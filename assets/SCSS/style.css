@@ -247,6 +247,7 @@ header .container .menu .bottom-menu nav a:hover {
   display: flex;
   justify-content: space-between;
   padding-top: 110px;
+  padding-bottom: 100px;
 }
 .About .container img {
   padding-right: 50px;
@@ -284,10 +285,16 @@ header .container .menu .bottom-menu nav a:hover {
 
 .Service {
   padding-top: 100px;
+  padding-bottom: 100px;
   background-color: #F0EFE9;
 }
 .Service .container {
   display: block;
+}
+.Service .container .Btn-sec {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 .Service .container .orange {
   color: #F94D1C;
@@ -302,12 +309,26 @@ header .container .menu .bottom-menu nav a:hover {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
-  border: 1px solid black;
+}
+.Service .container .boxtext h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.Service .container .boxtext p {
+  padding-bottom: 20px;
 }
 .Service .container .boxtext .boxitem {
-  padding: 50px;
-  border: 1px solid black;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border: 1px solid white;
   margin: 10px;
+  background-color: white;
+}
+.Service .container .boxtext .boxitem:hover {
+  background-color: #F9D783;
 }
 .Service .container .boxtext .boxitem .Btn-arrow {
   border-radius: 25px;
@@ -317,5 +338,109 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
-  text-align: end;
+}
+.Service .container .boxtext .boxitem .Btn-arrow:hover {
+  background-color: white;
+  color: black;
+}
+
+.Choose .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Choose img {
+  height: 450px;
+  width: auto;
+}
+.Choose .choose-us {
+  display: block;
+  margin-right: 50px;
+}
+.Choose .choose-us h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.Choose .choose-us .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.Choose .choose-us h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.Choose .choose-us .column-item {
+  padding: 20px;
+}
+.Choose .choose-us .column-item .columni {
+  padding-top: 20px;
+}
+.Choose .choose-us .column-item .columni i {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border-radius: 35px;
+  border: 1px solid #c7c7c7;
+  margin-right: 20px;
+}
+
+.Projects .container {
+  display: block;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Projects .container .project-text {
+  display: block;
+  text-align: center;
+  padding-bottom: 70px;
+}
+.Projects .container .project-text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.Projects .container .project-text .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.Projects .container .grid-project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+.Projects .container .grid-project h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #E7E7E7;
+}
+.Projects .container .grid-project .grid-pic a {
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: #191919;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.Projects .container .grid-project .grid-pic a i {
+  padding-left: 10px;
+}
+.Projects .container .Btn-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 50px;
 }
