@@ -444,3 +444,183 @@ header .container .menu .bottom-menu nav a:hover {
   margin-top: 70px;
   margin-left: 50px;
 }
+
+.Team {
+  background-color: #F0D082;
+  padding-bottom: 100px;
+}
+.Team .container {
+  display: block;
+}
+.Team .container .team-start {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+.Team .container .team-start .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.Team .container .team-start h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.Team .container .presentation {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+.Team .container .presentation .person h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.Team .container .review {
+  background-color: white;
+  display: block;
+  padding: 100px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+.Team .container .review .title-box {
+  display: block;
+  margin-bottom: 50px;
+}
+.Team .container .review .title-box .orange {
+  color: #F94D1C;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.Team .container .review .title-box h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+}
+.Team .container .review .re-box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.Team .container .review .re-box .review-box {
+  margin: 40px;
+}
+.Team .container .review .re-box .review-box i {
+  color: #F94D1C;
+}
+.Team .container .review .Btn-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.article {
+  background-color: white;
+  padding: 100px;
+}
+.article .container {
+  display: block;
+}
+.article .container .Art-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article .container .Art-start .orange {
+  color: #F94D1C;
+  font-size: 18px;
+}
+.article .container .Art-start h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.article .container .art-menu {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+}
+.article .container .art-menu .art-box h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.News {
+  background-color: #F0EFE9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.News .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.News .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.News .container input {
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  border-color: white;
+}
+
+.footer {
+  background-color: #0E1021;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer .container {
+  display: block;
+}
+.footer .container .fot-info {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid white;
+}
+.footer .container .fot-info .fot-box {
+  padding: 50px;
+  line-height: 2;
+  text-align: start;
+  border: 1px solid white;
+}
+.footer .container .fot-info .fot-box h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.footer .container .fot-info .fot-box ul {
+  list-style: none;
+  list-style-position: initial;
+}
+.footer .container .fot-info .fot-box ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer .container .fot-social {
+  color: #c7c7c7;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footer .container .fot-social a {
+  text-decoration: none;
+  color: #F0EFE9;
+  font-size: 1.4rem;
+  padding: 20px;
+}
