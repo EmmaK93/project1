@@ -68,6 +68,20 @@ html, body {
   font-size: 0.9em;
 }
 
+.section-title {
+  padding-top: 120px;
+}
+.section-title p {
+  color: #F94D1C;
+  font-size: 20px;
+}
+.section-title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 70px;
+}
+
 header {
   display: flex;
   background-color: #F0EFE9;
@@ -154,6 +168,12 @@ header .container .menu .bottom-menu nav a:hover {
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+}
+.showcase .background-lines {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .showcase .container {
   display: flex;
@@ -196,73 +216,64 @@ header .container .menu .bottom-menu nav a:hover {
   padding: 50px;
 }
 
-.container {
+.Feature-sec .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.container.Features {
+.Feature-sec .container.Features {
   border: 1px solid #bdbbbb;
-  padding: 50px;
-}
-.container.Features .text2 {
+  padding-bottom: 80px;
   padding-left: 50px;
+  padding-right: 50px;
 }
-.container.Features .text2 .orange {
-  color: #F94D1C;
-  font-size: 18px;
-}
-.container.Features .text2 h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
-.container.Features .text2 a {
+.Feature-sec .container.Features .section-title a {
   text-decoration: none;
   color: #191919;
 }
-.container.Features .text2 a:hover {
+.Feature-sec .container.Features .section-title a:hover {
   color: #F0EFE9;
 }
-.container.Features .grid-container {
+.Feature-sec .container.Features .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 120px;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
 }
-.container.Features .grid-container .grid-item {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+.Feature-sec .container.Features .grid-container .grid-item i {
+  font-size: 30px;
+  padding-bottom: 15px;
+  color: #191919;
 }
-.container.Features .grid-container .grid-item h3 {
+.Feature-sec .container.Features .grid-container .grid-item h3 {
   font-family: "DM Sans", sans-serif;
   font-size: 22px;
   font-weight: 700;
 }
-.container.Features .grid-container .grid-item p {
+.Feature-sec .container.Features .grid-container .grid-item p {
   color: #191919;
 }
 
 .About {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 110px;
   padding-bottom: 100px;
 }
+.About .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .About .container img {
-  padding-right: 50px;
+  margin-right: 200px;
+  margin-top: 120px;
 }
-.About .container h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
+.About .container .para-text {
+  line-height: 2;
+  padding-bottom: 100px;
 }
-.About .container .orange {
-  color: #F94D1C;
-  font-size: 18px;
-}
-.About .container p {
-  color: #191919;
+.About .container .Btn-black {
+  margin-right: 20px;
 }
 .About .container .Btn-black a {
   text-decoration: none;
@@ -287,6 +298,12 @@ header .container .menu .bottom-menu nav a:hover {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #F0EFE9;
+  position: relative;
+}
+.Service .background-lines {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .Service .container {
   display: block;
@@ -296,18 +313,10 @@ header .container .menu .bottom-menu nav a:hover {
   justify-content: center;
   padding: 20px;
 }
-.Service .container .orange {
-  color: #F94D1C;
-  font-size: 18px;
-}
-.Service .container h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
 .Service .container .boxtext {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
 }
 .Service .container .boxtext h3 {
@@ -319,10 +328,10 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 20px;
 }
 .Service .container .boxtext .boxitem {
-  padding-bottom: 70px;
-  padding-top: 70px;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
   border: 1px solid white;
   margin: 10px;
   background-color: white;
@@ -338,36 +347,37 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 50px;
 }
 .Service .container .boxtext .boxitem .Btn-arrow:hover {
   background-color: white;
   color: black;
 }
 
+.Choose {
+  position: relative;
+}
+.Choose .background-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 55%;
+}
 .Choose .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 100px;
   padding-bottom: 100px;
 }
 .Choose img {
   height: 450px;
   width: auto;
+  margin-top: 350px;
+  margin-left: 50px;
 }
 .Choose .choose-us {
   display: block;
-  margin-right: 50px;
-}
-.Choose .choose-us h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-  padding-bottom: 20px;
-}
-.Choose .choose-us .orange {
-  color: #F94D1C;
-  font-size: 18px;
 }
 .Choose .choose-us h3 {
   font-family: "DM Sans", sans-serif;
@@ -379,15 +389,23 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .Choose .choose-us .column-item .columni {
   padding-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: end;
 }
 .Choose .choose-us .column-item .columni i {
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  border-radius: 35px;
+  border-radius: 25px;
   border: 1px solid #c7c7c7;
-  margin-right: 20px;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: absolute;
+  left: 20px;
+}
+.Choose .choose-us .column-item .columni .text-col {
+  margin-right: 200px;
 }
 
 .Projects .container {
@@ -396,19 +414,10 @@ header .container .menu .bottom-menu nav a:hover {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.Projects .container .project-text {
+.Projects .container .section-title {
   display: block;
   text-align: center;
   padding-bottom: 70px;
-}
-.Projects .container .project-text h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
-.Projects .container .project-text .orange {
-  color: #F94D1C;
-  font-size: 18px;
 }
 .Projects .container .grid-project {
   display: grid;
@@ -459,15 +468,6 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 100px;
   align-items: center;
 }
-.Team .container .team-start .orange {
-  color: #F94D1C;
-  font-size: 18px;
-}
-.Team .container .team-start h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
 .Team .container .presentation {
   display: flex;
   justify-content: space-evenly;
@@ -486,17 +486,18 @@ header .container .menu .bottom-menu nav a:hover {
   margin-left: -100px;
   margin-right: -100px;
 }
-.Team .container .review .title-box {
+.Team .container .review .section-title {
   display: block;
   margin-bottom: 50px;
+  text-align: center;
 }
-.Team .container .review .title-box .orange {
+.Team .container .review .section-title .orange {
   color: #F94D1C;
   font-size: 18px;
   display: flex;
   justify-content: center;
 }
-.Team .container .review .title-box h2 {
+.Team .container .review .section-title h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 45px;
@@ -533,15 +534,6 @@ header .container .menu .bottom-menu nav a:hover {
   justify-content: space-between;
   align-items: center;
 }
-.article .container .Art-start .orange {
-  color: #F94D1C;
-  font-size: 18px;
-}
-.article .container .Art-start h2 {
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
 .article .container .art-menu {
   display: flex;
   justify-content: space-evenly;
@@ -557,10 +549,16 @@ header .container .menu .bottom-menu nav a:hover {
   background-color: #F0EFE9;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
+}
+.News .background-lines {
+  position: absolute;
+  right: 0;
+  bottom: 80px;
 }
 .News .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 .News .container h2 {
@@ -583,20 +581,27 @@ header .container .menu .bottom-menu nav a:hover {
   color: white;
   padding-top: 100px;
   padding-bottom: 100px;
+  position: relative;
+}
+.footer .background-lines {
+  position: absolute;
+  bottom: 185px;
+  right: 0;
 }
 .footer .container {
   display: block;
 }
 .footer .container .fot-info {
   display: flex;
-  justify-content: space-around;
-  border: 1px solid white;
+  justify-content: space-evenly;
+}
+.footer .container .fot-info .box1 {
+  margin-right: 100px;
 }
 .footer .container .fot-info .fot-box {
   padding: 50px;
   line-height: 2;
   text-align: start;
-  border: 1px solid white;
 }
 .footer .container .fot-info .fot-box h3 {
   font-family: "DM Sans", sans-serif;
@@ -604,23 +609,30 @@ header .container .menu .bottom-menu nav a:hover {
   font-weight: 700;
 }
 .footer .container .fot-info .fot-box ul {
-  list-style: none;
-  list-style-position: initial;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .footer .container .fot-info .fot-box ul li {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
-.footer .container .fot-social {
+.footer .fot-social {
   color: #c7c7c7;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   margin-top: 50px;
+  border-top: 1px solid #7b7b7b;
+  padding-top: 40px;
 }
-.footer .container .fot-social a {
+.footer .fot-social a {
   text-decoration: none;
   color: #F0EFE9;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   padding: 20px;
+}
+.footer .fot-social a:hover {
+  color: #F94D1C;
 }
