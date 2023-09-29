@@ -18,7 +18,7 @@ html, body {
   padding: 12px 22px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: #F9D783;
 }
 .Btn-yellow:hover {
@@ -37,7 +37,7 @@ html, body {
   padding: 12px 22px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: transparent;
 }
 .Btn-trans:hover {
@@ -56,7 +56,7 @@ html, body {
   padding: 12px 22px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   background-color: black;
 }
 .Btn-black:hover {
@@ -73,12 +73,12 @@ html, body {
 }
 .section-title p {
   color: #F94D1C;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .section-title h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.8rem;
   margin-bottom: 70px;
 }
 
@@ -96,7 +96,7 @@ header .container {
 }
 header .container .menu-bar {
   border: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   background-color: transparent;
 }
 @media (min-width: 992px) {
@@ -130,7 +130,7 @@ header .container .menu .top-menu .cont-info .content-box {
   margin-right: 30px;
   border-right: 1px solid #DAD9D3;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 0.9rem;
   font-weight: 300;
   color: #434242;
 }
@@ -187,11 +187,11 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .showcase .container .content h1 {
   font-family: "DM Sans", sans-serif;
-  font-size: 86px;
+  font-size: 6rem;
   font-weight: 700;
 }
 .showcase .container .content p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Inter", sans-serif;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -244,14 +244,21 @@ header .container .menu .bottom-menu nav a:hover {
        column-gap: 40px;
   row-gap: 40px;
 }
+.Feature-sec .container.Features .grid-container a {
+  text-decoration: none;
+  color: #191919;
+}
+.Feature-sec .container.Features .grid-container a:hover {
+  color: #F0D082;
+}
 .Feature-sec .container.Features .grid-container .grid-item i {
-  font-size: 30px;
+  font-size: 1.8rem;
   padding-bottom: 15px;
   color: #191919;
 }
 .Feature-sec .container.Features .grid-container .grid-item h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .Feature-sec .container.Features .grid-container .grid-item p {
@@ -323,11 +330,14 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .Service .container .boxtext h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .Service .container .boxtext p {
   padding-bottom: 20px;
+}
+.Service .container .boxtext .a {
+  text-decoration: none;
 }
 .Service .container .boxtext .boxitem {
   padding-top: 80px;
@@ -383,7 +393,7 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .Choose .choose-us h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .Choose .choose-us .column-item {
@@ -429,7 +439,7 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .Projects .container .grid-project h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.4rem;
   font-weight: 700;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -440,7 +450,7 @@ header .container .menu .bottom-menu nav a:hover {
   justify-content: end;
   text-decoration: none;
   color: #191919;
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 400;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -476,10 +486,23 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
-.Team .container .presentation .person h3 {
+.Team .container .presentation .person {
+  align-items: center;
+  position: relative;
+}
+.Team .container .presentation .person .presentation-box {
+  background-color: #BEEBFF;
+  right: 1;
+  top: 75%;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}
+.Team .container .presentation .person .presentation-box h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 700;
+  padding-top: 10px;
 }
 
 .Testimonial .container .review {
@@ -496,14 +519,14 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .Testimonial .container .review .section-title .orange {
   color: #F94D1C;
-  font-size: 18px;
+  font-size: 1.13rem;
   display: flex;
   justify-content: center;
 }
 .Testimonial .container .review .section-title h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 3.8rem;
   display: flex;
   justify-content: center;
 }
@@ -542,10 +565,20 @@ header .container .menu .bottom-menu nav a:hover {
   justify-content: space-evenly;
   padding-top: 50px;
 }
+.article .container .art-menu a {
+  text-decoration: none;
+  color: #0E1021;
+}
+.article .container .art-menu a:hover {
+  color: #605f5f;
+}
 .article .container .art-menu .art-box h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+.article .container .art-menu .art-box .art-title {
+  color: #F94D1C;
 }
 
 .News {
@@ -567,7 +600,7 @@ header .container .menu .bottom-menu nav a:hover {
 .News .container h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 .News .container input {
   border-radius: 30px;
@@ -597,9 +630,11 @@ header .container .menu .bottom-menu nav a:hover {
 .footer .container .fot-info {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 .footer .container .fot-info .box1 {
   width: 200%;
+  height: auto;
 }
 .footer .container .fot-info .fot-box {
   padding: 50px;
@@ -608,7 +643,7 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .footer .container .fot-info .fot-box h3 {
   font-family: "DM Sans", sans-serif;
-  font-size: 22px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .footer .container .fot-info .fot-box ul {
@@ -618,7 +653,7 @@ header .container .menu .bottom-menu nav a:hover {
 }
 .footer .container .fot-info .fot-box ul li {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 .footer .container .fot-info #fot-help, .footer .container .fot-info #fot-link {
