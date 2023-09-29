@@ -675,6 +675,24 @@ padding-bottom: 100px;
         }
     }
 
+
+            
+            
+           
+
+           
+
+           
+        }
+      
+
+    }
+
+// Testimonial section
+.Testimonial{
+
+        .container{
+
         .review{
             background-color: white;
             display: block;
@@ -683,20 +701,20 @@ padding-bottom: 100px;
             margin-right:-100px;
 
             .section-title{
-               display:block;
-               margin-bottom: 50px;
-               text-align: center;
-               
-               
+            display:block;
+            margin-bottom: 50px;
+            text-align: center;
             
-// behåll denna orange!
+            
+            
+    // behåll denna orange!
                 .orange{
                     color:#F94D1C;
                     font-size: 18px;
                     display: flex;
                     justify-content: center;
                 }
-    
+
                 h2{
                     font-family: 'DM Sans', sans-serif;
                     font-weight: 700;
@@ -705,7 +723,7 @@ padding-bottom: 100px;
                     justify-content: center;
                 }
 
-               
+            
 
 
             }
@@ -733,19 +751,12 @@ padding-bottom: 100px;
                 justify-content: center;
                 align-items: center;
                 margin-top: 70px;
-               
+            
                 }
-            
-            
-           
 
-           
-
-           
         }
-      
-
     }
+            
 }
 
 // Article section
@@ -843,13 +854,13 @@ padding-bottom: 100px;
             
             
             .box1{
-                margin-right: 100px;
+                width:200%;
             }
             .fot-box{
                
                 padding:50px;
                 line-height: 2;
-                text-align: start;
+                text-align: left;
                 
 
                 h3{
@@ -875,7 +886,10 @@ padding-bottom: 100px;
 
             }
         
+            #fot-help, #fot-link{
+                width: 100%;
 
+            }
           
 
         }

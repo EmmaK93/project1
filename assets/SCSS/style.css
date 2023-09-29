@@ -481,43 +481,44 @@ header .container .menu .bottom-menu nav a:hover {
   font-size: 22px;
   font-weight: 700;
 }
-.Team .container .review {
+
+.Testimonial .container .review {
   background-color: white;
   display: block;
   padding: 100px;
   margin-left: -100px;
   margin-right: -100px;
 }
-.Team .container .review .section-title {
+.Testimonial .container .review .section-title {
   display: block;
   margin-bottom: 50px;
   text-align: center;
 }
-.Team .container .review .section-title .orange {
+.Testimonial .container .review .section-title .orange {
   color: #F94D1C;
   font-size: 18px;
   display: flex;
   justify-content: center;
 }
-.Team .container .review .section-title h2 {
+.Testimonial .container .review .section-title h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 45px;
   display: flex;
   justify-content: center;
 }
-.Team .container .review .re-box {
+.Testimonial .container .review .re-box {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
 }
-.Team .container .review .re-box .review-box {
+.Testimonial .container .review .re-box .review-box {
   margin: 40px;
 }
-.Team .container .review .re-box .review-box i {
+.Testimonial .container .review .re-box .review-box i {
   color: #F94D1C;
 }
-.Team .container .review .Btn-sec {
+.Testimonial .container .review .Btn-sec {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -598,12 +599,12 @@ header .container .menu .bottom-menu nav a:hover {
   justify-content: space-evenly;
 }
 .footer .container .fot-info .box1 {
-  margin-right: 100px;
+  width: 200%;
 }
 .footer .container .fot-info .fot-box {
   padding: 50px;
   line-height: 2;
-  text-align: start;
+  text-align: left;
 }
 .footer .container .fot-info .fot-box h3 {
   font-family: "DM Sans", sans-serif;
@@ -619,6 +620,9 @@ header .container .menu .bottom-menu nav a:hover {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+.footer .container .fot-info #fot-help, .footer .container .fot-info #fot-link {
+  width: 100%;
 }
 .footer .fot-social {
   color: #c7c7c7;
