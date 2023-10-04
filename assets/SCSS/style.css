@@ -515,6 +515,13 @@ header .container .menu .bottom-menu nav a:hover {
   padding-bottom: 60px;
   margin-bottom: 60px;
 }
+.Team .container .presentation a {
+  text-decoration: none;
+  color: #0E1021;
+}
+.Team .container .presentation a:hover {
+  box-shadow: 0 15px 5px 5px #7d6f49;
+}
 .Team .container .presentation .person {
   align-items: center;
   position: relative;
