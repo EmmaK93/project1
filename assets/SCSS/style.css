@@ -672,6 +672,12 @@ header .container .menu .bottom-menu nav a:hover {
   width: -moz-max-content;
   width: max-content;
   height: auto;
+  padding: 20px 0 0 0;
+}
+.footer .container .fot-info #box1 img {
+  margin-bottom: 30px;
+  height: 70px;
+  width: auto;
 }
 .footer .container .fot-info .fot-box {
   padding: 50px;
