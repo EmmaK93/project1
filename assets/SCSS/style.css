@@ -20,6 +20,7 @@ html, body {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   background-color: #F9D783;
+  transition: background-color 0.3s ease-in-out;
 }
 .Btn-yellow:hover {
   background-color: rgb(7, 7, 7);
@@ -39,6 +40,7 @@ html, body {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   background-color: transparent;
+  transition: background-color 0.3s ease-in-out;
 }
 .Btn-trans:hover {
   background-color: rgb(7, 7, 7);
@@ -58,6 +60,7 @@ html, body {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   background-color: black;
+  transition: background-color 0.3s ease-in-out;
 }
 .Btn-black:hover {
   background-color: white;
@@ -272,10 +275,36 @@ header .container .menu .bottom-menu nav a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .About .container img {
   margin-right: 200px;
   margin-top: 120px;
+}
+.About .container .blue-box {
+  position: absolute;
+  background-color: #BEEBFF;
+  display: inline-block;
+  left: 0;
+  bottom: 30px;
+  padding: 20px 20px 50px 20px;
+  width: 368px;
+  height: auto;
+}
+.About .container .blue-box .box-title {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.About .container .blue-box .box-title h3 {
+  display: inline;
+  font-size: 1.25rem;
+}
+.About .container .blue-box .box-title .orange {
+  display: inline;
+  color: #F94D1C;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
 }
 .About .container .para-text {
   line-height: 2;
