@@ -907,7 +907,7 @@ padding-bottom: 100px;
 // Footer section
 .footer{
     background-color: #0E1021;
-    color: white;
+    color: #DAD9D3;
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
@@ -929,15 +929,26 @@ padding-bottom: 100px;
             text-align: center;
             
             
-            .box1{
-                width:200%;
+            
+            #box1{
+                width: max-content;
                 height: auto;
+                
             }
             .fot-box{
-               
                 padding:50px;
-                line-height: 2;
                 text-align: left;
+                
+
+                a{
+                    text-decoration: none;
+                    color:#DAD9D3;
+
+                    &:hover{
+                        color:#F94D1C;
+                        
+                    }
+                }
                 
 
                 h3{
@@ -956,6 +967,8 @@ padding-bottom: 100px;
                         font-family: 'Inter', sans-serif;
                         font-size: 1rem;
                         font-weight: 400;
+                        width: max-content;
+                        line-height: 2.5;
                         
                     }
                 }
@@ -963,10 +976,6 @@ padding-bottom: 100px;
 
             }
         
-            #fot-help, #fot-link{
-                width: 100%;
-
-            }
           
 
         }
